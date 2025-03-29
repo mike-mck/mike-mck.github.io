@@ -42,10 +42,10 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-/* Profile Image */
+/* Profile Image - Fixed Aspect Ratio */
 .profile-pic {
-    width: 180px;
-    height: 180px;
+    width: 180px; /* Size it appropriately */
+    height: auto; /* Maintain aspect ratio */
     border-radius: 50%;
     border: 3px solid #0077cc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
