@@ -1,0 +1,10 @@
+# Site settings
+title: "Michael McKelligott"
+description: "PhD Student at the University of Chicago Harris School of Public Policy"
+theme: minima # You can change this to cayman, slate, etc.
+
+# GitHub and Social Links (optional)
+github_username: mike-mck
+
+# Build settings
+markdown: kramdown
