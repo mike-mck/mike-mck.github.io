@@ -3,6 +3,16 @@ title: "Michael McKelligott"
 description: "PhD Student at the University of Chicago Harris School of Public Policy"
 theme: minima
 
+# Custom Colors (Light/Minimal)
+minima:
+  skin: auto
+  social_links: false
+  header_color: "#333"
+  header_text_color: "#ffffff"
+  link_color: "#4CAF50" # A nice green for links
+  background_color: "#f9f9f9"
+  footer_color: "#f1f1f1"
+
 # Build settings
 markdown: kramdown
 
