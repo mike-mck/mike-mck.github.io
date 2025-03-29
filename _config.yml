@@ -1,7 +1,7 @@
 # Site settings
 title: "Michael McKelligott"
 description: "PhD Student at the University of Chicago Harris School of Public Policy"
-theme: cayman # You can change this to cayman, slate, minima, etc.
+theme: slate # You can change this to cayman, slate, minima, etc.
 
 # GitHub and Social Links (optional)
 github_username: mike-mck
