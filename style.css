@@ -8,21 +8,42 @@ body {
 
 /* Navigation Bar */
 nav {
-    background-color: #0077cc;
-    padding: 10px 0;
+    background-color: white;
+    padding: 15px 0;
     text-align: center;
+    border-bottom: 2px solid #f1f1f1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
+/* Navigation Links */
 nav a {
-    color: white;
-    margin: 0 15px;
+    color: #0077cc;
+    margin: 0 20px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.2em;
+    position: relative;
+    padding: 5px 0;
+    transition: color 0.3s ease;
 }
 
-nav a:hover {
-    text-decoration: underline;
+/* Hover Effect: Underline Animation */
+nav a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #0077cc;
+    transition: width 0.3s ease;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+}
+
+/* When Hovering, the Underline Grows */
+nav a:hover::after {
+    width: 100%;
 }
 
 /* Main Container */
@@ -42,10 +63,10 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-/* Profile Image - Fixed Aspect Ratio */
+/* Profile Image */
 .profile-pic {
-    width: 180px; /* Size it appropriately */
-    height: auto; /* Maintain aspect ratio */
+    width: 180px;
+    height: auto;
     border-radius: 50%;
     border: 3px solid #0077cc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
