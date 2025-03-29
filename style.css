@@ -6,10 +6,29 @@ body {
     padding: 0;
 }
 
+/* Navigation Bar */
+nav {
+    background-color: #0077cc;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
 /* Main Container */
 .container {
     width: 90%;
-    max-width: 700px;
+    max-width: 800px;
     margin: 50px auto;
     background-color: white;
     padding: 40px;
@@ -18,24 +37,24 @@ body {
     text-align: center;
 }
 
-/* Profile Photo Container */
+/* Profile Section */
 .profile-container {
     margin-bottom: 20px;
 }
 
 /* Profile Image */
 .profile-pic {
-    width: 220px;
-    height: 220px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
-    border: 5px solid #0077cc;
+    border: 3px solid #0077cc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Heading and Paragraph Styles */
+/* Heading and Paragraphs */
 h1 {
     color: #333;
-    font-size: 2.5em;
+    font-size: 2.2em;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -46,8 +65,8 @@ p {
     line-height: 1.6;
 }
 
-/* Buttons for Links */
-a.button {
+/* CV Button */
+.cv-button {
     display: inline-block;
     background-color: #0077cc;
     color: white;
@@ -55,15 +74,15 @@ a.button {
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 20px;
     transition: background-color 0.3s ease;
 }
 
-a.button:hover {
+.cv-button:hover {
     background-color: #005fa3;
 }
 
-/* Footer (optional) */
+/* Footer */
 footer {
     margin-top: 30px;
     text-align: center;
