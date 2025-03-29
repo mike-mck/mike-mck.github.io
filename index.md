@@ -12,8 +12,6 @@ My current research explores the spread of public health knowledge and its impac
 
 Applied Microeconomics, health, labor, and public economics, economic history
 
-### 📄 [Download My CV](assets/cv.pdf)
-
 ### Contact:
 
 mckelligott@uchicago.edu
