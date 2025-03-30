@@ -5,12 +5,13 @@ theme: minima
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 
-# Navigation (Optional)
+# Include custom CSS if applicable
+include:
+  - style.css
+
+# Navigation
 header_pages:
   - index.md
   - research.md
-
-# Add custom CSS
-include:
-  - style.css
