@@ -1,7 +1,7 @@
 # Site settings
 title: "Michael McKelligott"
 description: "PhD Student at the University of Chicago Harris School of Public Policy"
-theme: minima
+theme: minimal
 
 # Build settings
 markdown: kramdown
