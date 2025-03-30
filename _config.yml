@@ -10,3 +10,8 @@ markdown: kramdown
 header_pages:
   - index.md
   - research.md
+
+  # Add custom CSS
+include:
+  - style.css
+
